@@ -1,0 +1,12 @@
+html {
+    background-image: url(/src/images/pexels-riccardo-bertolo-4245826.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.div-container {
+    width: 98vw;
+    height: 96vh;
+    border: 4px blanchedalmond solid;
+    
+}
