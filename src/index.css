@@ -5,8 +5,28 @@ html {
 }
 
 .div-container {
+    display: flex;
     width: 98vw;
     height: 96vh;
     border: 4px blanchedalmond solid;
+    justify-content: center;
+    align-items: center;
     
 }
+
+.div-clock {
+    width: 200px;
+    height: 200px;
+    border: 18px solid #040C81;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-seconds {
+    border: 2px solid #04814F;
+    width: 8px;
+    height: 30px;
+}
+

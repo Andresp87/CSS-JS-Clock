@@ -12,5 +12,8 @@
     "clock"
   ],
   "author": "Andres Patino",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }
