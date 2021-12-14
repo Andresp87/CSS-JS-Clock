@@ -1,32 +1,58 @@
-html {
-    background-image: url(/src/images/pexels-riccardo-bertolo-4245826.jpg);
-    background-repeat: no-repeat;
-
+body {
+    width: 100vw;
+    height: 100vh;
 }
 
-.div-container {
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url("images/pexels-riccardo-bertolo-4245826.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
     display: flex;
-    width: 98vw;
-    height: 96vh;
-    border: 4px blanchedalmond solid;
     justify-content: center;
     align-items: center;
-    
 }
 
-.div-clock {
+.clock {
+    position: relative;
     width: 200px;
     height: 200px;
     border: 18px solid #040C81;
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
-.div-seconds {
+.seconds, .minutes, .hours  {
+    transform-origin: bottom;
+    position: absolute;
     border: 2px solid #04814F;
-    width: 8px;
-    height: 30px;
+    background-color: burlywood;
+    margin-bottom: 50%;
+}
+
+animate
+
+.seconds {
+    width: 4px;
+    height: 80px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+.minutes {
+    width: 4px;
+    height: 60px;
+}
+
+.hours {
+    width: 4px;
+    height: 40px;
 }
 

@@ -4,6 +4,8 @@
   "description": "CSS + JS Clock",
   "main": "src/index.js",
   "scripts": {
+    "start": "npm run copy-assets && http-server src",
+    "copy-assets": "cp node_modules/normalize.css/normalize.css src/normalize.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,5 +17,8 @@
   "license": "MIT",
   "dependencies": {
     "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.0.0"
   }
 }
