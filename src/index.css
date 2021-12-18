@@ -29,8 +29,8 @@ body {
 }
 
 .seconds, .minutes, .hours  {
-    transform-origin: bottom;
     position: absolute;
+    transform-origin: bottom;
     border: 2px solid #04814F;
     background-color: burlywood;
     margin-bottom: 50%;
@@ -39,20 +39,27 @@ body {
 animate
 
 .seconds {
-    width: 4px;
-    height: 80px;
+    width: 14px;
+    height: 180px;
     animation-name: example;
     animation-duration: 4s;
     animation-delay: 2s;
+    
 }
 
 .minutes {
     width: 4px;
     height: 60px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
 }
 
 .hours {
     width: 4px;
     height: 40px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
 }
 
