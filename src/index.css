@@ -36,30 +36,18 @@ body {
     margin-bottom: 50%;
 }
 
-animate
-
 .seconds {
-    width: 14px;
-    height: 180px;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-delay: 2s;
-    
+    width: 4px;
+    height: 80px;
 }
 
 .minutes {
     width: 4px;
     height: 60px;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-delay: 2s;
 }
 
 .hours {
     width: 4px;
     height: 40px;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-delay: 2s;
 }
 
